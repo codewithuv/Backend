@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon --experimental-json-modules -r dotenv/config src/index.js"
+
+
   },
   "keywords": [
     "backend",
@@ -16,5 +18,10 @@
   "devDependencies": {
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
   }
 }
