@@ -27,6 +27,6 @@ const uploadOnCloundary =async(localFilePath)=>{
     }
 }
 
-export default uploadOnCloundary;
+export {uploadOnCloundary};
 
 
